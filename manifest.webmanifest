@@ -1,0 +1,25 @@
+{
+  "name": "فال حافظ",
+  "short_name": "فال حافظ",
+  "description": "نیت کنید و غزلی از دیوان حافظ را با تعبیرش بخوانید.",
+  "lang": "fa",
+  "dir": "rtl",
+  "id": "./",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0c1730",
+  "theme_color": "#0c1730",
+  "categories": ["lifestyle", "books", "entertainment"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "فال امروز", "url": "./#/daily", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "دیوان حافظ", "url": "./#/diwan", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
